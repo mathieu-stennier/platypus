@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start-typescript",
+  "name": "platypus",
   "version": "1.0.0",
   "description": "A minimal Electron application written with Typescript",
   "scripts": {
@@ -8,7 +8,7 @@
     "lint": "tslint -c tslint.json -p tsconfig.json",
     "start": "npm run build && electron ./dist/main.js"
   },
-  "repository": "https://github.com/electron/electron-quick-start-typescript",
+  "repository": "https://github.com/mstennie/platypus.git",
   "keywords": [
     "Electron",
     "quick",
@@ -20,8 +20,9 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.2",
+    "electron": ">=2.0.8",
     "tslint": "^5.10.0",
-    "typescript": "^2.8.3"
+    "typescript": "^2.8.3",
+    "extend": ">=3.0.2"
   }
 }
